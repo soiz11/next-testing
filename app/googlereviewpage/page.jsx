@@ -6,7 +6,7 @@ const GoogleReviewsPage = () => {
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(true);
   const placeId = "@6.8411355,79.9980461,17z"; // Replace with the actual Place ID
-  const apiKey = "AIzaSyA8UTRp61IYHOHp5TMDKcU9YLfG5ht8cGY"; // Replace with your Google Places API key
+  const apiKey = ""; // Replace with your Google Places API key
 
   useEffect(() => {
     async function fetchReviews() {
